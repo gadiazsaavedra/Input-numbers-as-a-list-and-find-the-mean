@@ -39,3 +39,4 @@ def calculate_mean(numbers: list[float]) -> float:
 number_list = create_number_list()
 mean_value = calculate_mean(number_list)
 print(f"The mean value of the list is: {mean_value}")
+
