@@ -1,4 +1,4 @@
-def create_number_list():
+def get_number_list():
     """
     Prompts the user to enter numbers separated by spaces and returns a
     list of floats.
@@ -36,7 +36,6 @@ def calculate_mean(numbers: list[float]) -> float:
 
 
 # Example usage:
-number_list = create_number_list()
-mean_value = calculate_mean(number_list)
+number_lista = get_number_list()
+mean_value = calculate_mean(number_lista)
 print(f"The mean value of the list is: {mean_value}")
-
